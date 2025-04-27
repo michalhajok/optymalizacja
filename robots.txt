@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /panel/
+Allow: /publiczny-folder/
+
+Sitemap: https://optymalizacja-lilac.vercel.app//sitemap.xml

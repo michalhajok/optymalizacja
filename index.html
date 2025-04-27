@@ -25,8 +25,11 @@
       name="og:description"
       content="Profesjonalne tworzenie stron internetowych w Warszawie. Nowoczesne projekty, szybka realizacja, atrakcyjne ceny – sprawdź nas!"
     />
-    <meta name="og:image" content="https://example.com/image.jpg" />
-    <meta name="og:url" content="https://example.com" />
+    <meta
+      name="og:image"
+      content="https://optymalizacja-lilac.vercel.app/image.jpg"
+    />
+    <meta name="og:url" content="https://optymalizacja-lilac.vercel.app/" />
     <meta name="og:type" content="website" />
     <meta
       name="og:site_name"
@@ -74,6 +77,49 @@
       <p>© 2025 Moja Strona. Wszelkie prawa zastrzeżone.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Moja Strona - Tworzenie stron internetowych Warszawa",
+        "image": "https://optymalizacja-lilac.vercel.app/og-image.jpg",
+        "url": "https://optymalizacja-lilac.vercel.app/",
+        "telephone": "+48 123 456 789",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ul. Przykładowa 5",
+          "addressLocality": "Warszawa",
+          "postalCode": "00-001",
+          "addressCountry": "PL"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 52.2297,
+          "longitude": 21.0122
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/twojafirma",
+          "https://www.instagram.com/twojafirma",
+          "https://www.linkedin.com/company/twojafirma"
+        ]
+      }
+    </script>
   </body>
 </html>
